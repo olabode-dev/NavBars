@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+li, a, button{
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+
+.header1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#372750;
+    
+
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto';
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0;
+}
+
+.nav__links li a:hover{
+    border-bottom: grey solid 2px;
+    border-radius: 100%;
+    color: grey;
+}
+
+.button1{
+    padding: 9px 25px;
+    background-color: #FDA367;
+    color: white;
+    margin-left: 20px;
+    align-content: center;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease 0;
+    outline: none;
+    
+}
+
+.button1:hover{
+    background-color: grey;
+}
+
+.info{
+    background-color:#372750e5;
+    color: white;
+    font-family: 'roboto';
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.para{
+    font-family: 'roboto';
+}
+
+
+#firstPara{
+    font-size: 20px;
+}
+
+#secondPara{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+  #download{
+    background-color: #372750;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    align-content: center;
+    background-color: #FDA367;
+    color: white;
+    align-content: center;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease 0;
+    outline: none;
+    width: auto;
+
+      }
+
+ #hire{
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    align-content: center;
+    width: 60px;
+    background-color: #FDA367;
+    color: white;
+    align-content: center;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease 0;
+    outline: none;
+    width: auto;
+    
+ }
+
+ .action_button{
+     padding-top: 200px;
+     padding-bottom: 100px;
+ }
+
+ footer{
+     background-color:#372750;
+     color: white;
+     font-family: 'roboto';
+     text-align: center;
+     align-content: center;
+     height: 40px;
+ }
+
+
+
+
+
+
+   
+
+
+@media only screen and(max-width: 500px){
+    li a {
+         display: block;
+        align-content: flex-start;
+        align-items: left;
+         display: flex; 
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    ul{
+        font-size: 5px;
+        box-sizing: content-box;
+        flex-direction: column;
+        justify-items: flex-start;
+        align-items: left;
+
+    }
+    .logo{
+        display: flex;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+
+    .button1{
+    padding: 9px 25px;
+    background-color: #FDA367;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    transition: all 0.3s ease 0;
+    outline: none;
+    width: 100px;
+    height: 40px
+
+    }
